@@ -1,0 +1,2 @@
+var userword = prompt('Enter any word');
+alert("You entered " + userword + "\nThere are " + userword.length + " characters in the word.\nThe third character is \'" + userword.charAt(2) + "\' \nLowercase: "+userword.toLowerCase() + "\nUppercase: "+userword.toUpperCase()+" \nExample: Who wants " +userword+ " for breakfast? \nSubword from characters 2-4: " +userword.substring(1,4));
